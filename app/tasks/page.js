@@ -1,7 +1,7 @@
 const TasksPage = () => {
 	return (
 		<div>
-			<h1 className='text-7xl'>TasksPage</h1>
+			<h1 className='text-7xl text-blue-600'>TasksPage</h1>
 		</div>
 	);
 };
