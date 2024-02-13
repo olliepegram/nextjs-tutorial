@@ -1,7 +1,13 @@
+import TaskForm from '../../components/TaskForm';
+import TaskList from '../../components/TaskList';
+import DeleteForm from '../../components/DeleteForm';
+
 const TasksPage = () => {
 	return (
-		<div>
-			<h1 className='text-7xl text-blue-600'>TasksPage</h1>
+		<div className='max-w-lg'>
+			<TaskForm />
+			<TaskList />
+			<DeleteForm />
 		</div>
 	);
 };
